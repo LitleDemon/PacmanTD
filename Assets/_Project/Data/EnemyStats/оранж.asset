@@ -10,16 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5ef966ea0628e3748a466db1a2cc1cd3, type: 3}
-  m_Name: Blinky
+  m_Name: "\u043E\u0440\u0430\u043D\u0436"
   m_EditorClassIdentifier: Assembly-CSharp::EnemyStats
-<<<<<<< HEAD
-  enemyName: "\u041A\u0440\u0430\u0441\u043D\u044B\u0439"
-  maxHealth: 10
-  speed: 3.5
-  rewardPellets: 5
-=======
   enemyName: 
   maxHealth: 0
   speed: 0
   rewardPellets: 0
->>>>>>> e51a126d5ed75c262ada9384efe9e5037ca3d758

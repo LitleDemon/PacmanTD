@@ -10,16 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5ef966ea0628e3748a466db1a2cc1cd3, type: 3}
-  m_Name: Pinky
+  m_Name: "\u043A\u0440\u0430\u0441\u043D\u044B\u0439"
   m_EditorClassIdentifier: Assembly-CSharp::EnemyStats
-<<<<<<< HEAD
-  enemyName: "\u0440\u043E\u0437\u043E\u0432\u044B\u0439"
-  maxHealth: 15
-  speed: 2.5
-  rewardPellets: 10
-=======
   enemyName: 
   maxHealth: 0
   speed: 0
   rewardPellets: 0
->>>>>>> e51a126d5ed75c262ada9384efe9e5037ca3d758

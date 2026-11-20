@@ -20,7 +20,6 @@ public class TowerAttack : MonoBehaviour
 
     private void Shoot()
     {
-        // Ищем не ближайшего, а ПЕРВОГО врага
         EnemyHealth target = FindFirstEnemy();
 
         if (target != null)
@@ -45,15 +44,12 @@ public class TowerAttack : MonoBehaviour
 
         foreach (EnemyHealth enemy in enemies)
         {
-            // 1. Проверяем, в радиусе ли он
             float distanceToTower = Vector2.Distance(transform.position, enemy.transform.position);
             if (distanceToTower > range) continue;
 
-            // 2. Получаем скрипт движения
             EnemyMovement movement = enemy.GetComponent<EnemyMovement>();
             if (movement == null) continue;
 
-            // 3. Ищем того, кто прошел БОЛЬШЕ ВСЕГО пути
             if (movement.DistanceTravelled > maxDistanceTravelled)
             {
                 maxDistanceTravelled = movement.DistanceTravelled;
