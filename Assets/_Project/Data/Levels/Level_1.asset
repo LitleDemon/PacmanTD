@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53ae07c2b130f1941bc4c21aa3fd5895, type: 3}
+  m_Name: Level_1
+  m_EditorClassIdentifier: Assembly-CSharp::LevelConfig
+  levelName: "\u0422\u0435\u0441\u04421"
+  paths:
+  - {fileID: 11400000, guid: 81bef45562270a94e91884ed2976fe61, type: 2}
+  waves:
+<<<<<<< HEAD
+  - targetPathID: Path1
+    spawnGroups:
+    - enemyPrefab: {fileID: 5447717734991657358, guid: c13a0761eb9a99b40aa67039761e2b05, type: 3}
+      count: 2
+      spawnInterval: 1.5
+    - enemyPrefab: {fileID: 7610602367287502224, guid: 8b60f90a21982f744b478b3b608b58f7, type: 3}
+      count: 1
+      spawnInterval: 1
+  - targetPathID: Path1
+    spawnGroups:
+    - enemyPrefab: {fileID: 2854855783808378635, guid: 50d5dd6b4da858648804ab7d8828a3b8, type: 3}
+      count: 1
+      spawnInterval: 1
+    - enemyPrefab: {fileID: 6305625886805692532, guid: 38d0a66e71db5a84380f4e3940eaade1, type: 3}
+      count: 2
+      spawnInterval: 1.5
+=======
+  - enemyPrefab: {fileID: 4476814030967146580, guid: c9cc87ea7136ad54abf7d68590c1b43a, type: 3}
+    count: 5
+    spawnInterval: 1.5
+    targetPathID: Path1
+  - enemyPrefab: {fileID: 4476814030967146580, guid: c9cc87ea7136ad54abf7d68590c1b43a, type: 3}
+    count: 2
+    spawnInterval: 0.5
+    targetPathID: Path1
+>>>>>>> e51a126d5ed75c262ada9384efe9e5037ca3d758
+  startingLives: 3
+  startingPellets: 100

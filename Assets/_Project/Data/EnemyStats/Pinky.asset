@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef966ea0628e3748a466db1a2cc1cd3, type: 3}
+  m_Name: Pinky
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyStats
+<<<<<<< HEAD
+  enemyName: "\u0440\u043E\u0437\u043E\u0432\u044B\u0439"
+  maxHealth: 15
+  speed: 2.5
+  rewardPellets: 10
+=======
+  enemyName: 
+  maxHealth: 0
+  speed: 0
+  rewardPellets: 0
+>>>>>>> e51a126d5ed75c262ada9384efe9e5037ca3d758
